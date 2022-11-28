@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:rgb(216, 216, 73) ;
+    display: grid;
+    justify-items: center;
+    height: 50px;
+}
+body{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.realheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login{
+    text-decoration-line: none ;
+    color: black;
+    background-color: white;
+    padding: 8px 15px 8px 15px;
+    border: solid 0.5px black;
+    margin: 10px 2px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    text-decoration-line: none ;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px 8px;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 40px;
+    width: auto;
+}
+.navigation{
+    text-decoration-line: none ;
+    color: black;
+    padding: 10px;
+    margin: 10px 2px;
+}
+.navigation:hover{
+    color: rgb(63, 63, 189);
+}
+.search{
+    border-radius: 10%;
+    width: 500px;
+    padding: 15px;
+    margin: 10px 2px;
+
+}
+.image_card{
+    background-image: url(dfd08898-7698-411d-9b27-510fbde547c0.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image_card_child{
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: rgb(133, 124, 124);
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:white;
+    color: rgb(129, 119, 119);
+}
+.course{
+    display: flex;
+    flex-direction: row;
+}
+.course-row{
+    display: flex;
+    flex-direction:row;
+}
+.course-row img{
+    width: 100px;
+}
+.before_students{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+}
+.skill-container{
+    border:solid 0.5px rgb(126, 123, 123);
+    margin: 20px;
+    padding: 30px;
+}
