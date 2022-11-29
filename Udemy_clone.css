@@ -15,17 +15,19 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
 }
 
 .login{
     text-decoration-line: none ;
     color: black;
     background-color: white;
-    padding: 8px 15px 8px 15px;
     border: solid 0.5px black;
     margin: 10px 2px;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -39,7 +41,7 @@ body{
     align-items: center;
 }
 .image{
-    height: 40px;
+    height: 45px;
     width: auto;
 }
 .navigation{
@@ -56,7 +58,7 @@ body{
     width: 500px;
     padding: 15px;
     margin: 10px 2px;
-
+    background-color:  rgb(246, 250, 249);
 }
 .image_card{
     background-image: url(dfd08898-7698-411d-9b27-510fbde547c0.jpg);
@@ -98,18 +100,65 @@ li a:hover {
 }
 .course-row{
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
 }
 .course-row img{
     width: 100px;
 }
 .before_students{
-    background-color: lightblue;
+    background-color:  rgb(246, 250, 249);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 15px;
 }
 .skill-container{
     border:solid 0.5px rgb(126, 123, 123);
     margin: 20px;
     padding: 30px;
+}
+.students{
+    border:none;
+    margin: 20px;
+    
+}
+.top-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.category{
+    background-color: rgb(246, 250, 249);
+    padding: 30px 10px 30px 10px;
+}
+.category a.login :hover{
+    background-color: rgb(222, 226, 228);
+}
+.top-category a{
+    text-decoration-line: none;
+    color: black;
+}
+.category h2{
+    margin: 20px;
+}
+.category-row1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 20px;
+}
+.column-category1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.column-category1 a{
+    padding: 8px;
+    padding-left: 0px;
+}
+.column-category1 p{
+    padding-bottom: 15px;
+}
+.column-category1 h3{
+    padding-bottom: 15px;
 }
