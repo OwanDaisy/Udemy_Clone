@@ -54,7 +54,7 @@ body{
     color: rgb(63, 63, 189);
 }
 .search{
-    border-radius: 10%;
+    border-radius: 30px;
     width: 500px;
     padding: 15px;
     margin: 10px 2px;
@@ -72,7 +72,7 @@ body{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding:5px;
     overflow: hidden;
     color: rgb(133, 124, 124);
 }
@@ -97,13 +97,14 @@ li a:hover {
 .course{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 .course-row{
     display: flex;
     flex-direction:column;
 }
 .course-row img{
-    width: 100px;
+    width: 90%;
 }
 .before_students{
     background-color:  rgb(246, 250, 249);
@@ -113,8 +114,8 @@ li a:hover {
 }
 .skill-container{
     border:solid 0.5px rgb(126, 123, 123);
-    margin: 20px;
-    padding: 30px;
+    margin: 2px 20px 20px 20px;
+    padding:30px;
 }
 .students{
     border:none;
@@ -155,6 +156,7 @@ li a:hover {
 .column-category1 a{
     padding: 8px;
     padding-left: 0px;
+    font-weight: bold;
 }
 .column-category1 p{
     padding-bottom: 15px;
