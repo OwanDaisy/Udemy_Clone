@@ -4,10 +4,13 @@
 }
 .header{
     background-color:rgb(216, 216, 73) ;
-    display: grid;
-    justify-items: center;
-    height: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
 }
+
 body{
     font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
@@ -23,22 +26,30 @@ body{
     text-decoration-line: none ;
     color: black;
     background-color: white;
-    border: solid 0.5px black;
+    border: solid 1px black;
     margin: 10px 2px;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 12px;
     justify-content: center;
     align-items: center;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
 }
 .signup{
     text-decoration-line: none ;
     color: white;
     background-color: black;
-    padding: 10px;
+    padding: 13px;
     margin: 10px 8px;
     justify-content: center;
     align-items: center;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
 }
 .image{
     height: 45px;
@@ -163,4 +174,47 @@ li a:hover {
 }
 .column-category1 h3{
     padding-bottom: 15px;
+}
+.Instructor{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.35;
+    letter-spacing: -.02rem;
+}
+.Instructor1{
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 70px 70px 0px 70px;
+}
+.Instructor1left{
+    padding-right: 50px;
+}
+
+.Instructor1right{
+    padding-left: 50px;
+}
+.Instructor1left p{
+    padding: 10px;
+}
+.Instructor1right p{
+    padding: 10px;
+}
+.sponsors{
+    background-color: rgb(246, 250, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.sponsors_names{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(246, 250, 249);
+    padding: 30px;
 }
